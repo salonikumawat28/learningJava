@@ -14,6 +14,7 @@ import java.util.Scanner;
 public class RunningSum {
     
     public static void main(String[] args) {
+        // TODO: Hard Code the input instead from taking from terminal.
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Enter the Length of the Array");
