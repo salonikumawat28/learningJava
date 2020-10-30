@@ -3,7 +3,7 @@ package assignments;
 import java.util.Arrays;
 import java.util.Scanner;
 
-// Reviewed: Not reviewed
+// Reviewed: Not reviewed yet.
 
 /**
 * Given an array nums. We define a running sum of an array as 
