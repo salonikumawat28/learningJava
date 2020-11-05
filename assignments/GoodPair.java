@@ -18,30 +18,30 @@ import java.util.Arrays;
 public class GoodPair {
 
     public static void main(String[] args) {
-
         int[] nums = new int[]{1,2,3,1,1,3};
         System.out.println("Num array is ..." +Arrays.toString(nums));
 
         int result = goodPairCount(nums);
         System.out.println("Good Pair Count is ..." + result);
-
     }
 
     /**
+     * Time Complexity = O(n^2) and Space Compleity = O(1).
+     * 
      * Method counts number of good pair in array
      * @param nums
      * @return result
-     * 
-     * Time Complexity = O(n^2) and Space Compleity = O(1)
+     *
      */
+
     public static int goodPairCount(int[] nums) {
         int result = 0;
 
         for (int i = 0; i < nums.length; i++) {
 
-            for (int j = 1; j < nums.length; j++) {
+            for (int j = i + 1; j < nums.length; j++) {
 
-                if( nums[i] == nums[j] && i < j) {
+                if( nums[i] == nums[j] ) {
                     result ++;
 
                 }
@@ -51,7 +51,7 @@ public class GoodPair {
         }
 
         return result;
-
+        
     }
  
 }
