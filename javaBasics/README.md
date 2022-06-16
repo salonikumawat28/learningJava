@@ -14,6 +14,8 @@ No. Static methods are class methods. They have no relevance with the objects.
 In child class same static method with same method signature exactly like parent class can be prenet.
 Private method is a concept of data hiding. Visibility of private method is only avaliable to parent class only. So, method overriding makes no sense.
 
+### Difference between Hashset and Treeset.
+
 
 
 
